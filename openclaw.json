@@ -28,4 +28,17 @@
       unmentionedInbound: "room_event",
     },
   },
+  skills: {
+    entries: {
+      "inbox-assistant": { enabled: true },
+      "github-helper": {
+        enabled: true,
+        apiKey: { source: "env", provider: "default", id: "GITHUB_TOKEN" },
+      },
+      weather: {
+        enabled: true,
+        apiKey: { source: "env", provider: "default", id: "OPENWEATHER_API_KEY" },
+      },
+    },
+  },
 }

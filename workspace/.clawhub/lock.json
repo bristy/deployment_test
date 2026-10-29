@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "inbox-assistant": {
+      "owner": "inboxpilot-labs",
+      "version": "2.3.1",
+      "installedAt": 1758300000000
+    },
+    "github-helper": {
+      "owner": "devflow-tools",
+      "version": "0.9.4",
+      "installedAt": 1761580000000
+    }
+  }
+}
